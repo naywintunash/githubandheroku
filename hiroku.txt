@@ -1,0 +1,33 @@
+HIROKU ka php file ko read tr
+
+
+index.html to php
+
+
+file ka apin mr shi nay ya mal
+
+index.php (file ko name pay)
+
+
+<?php
+require "index.html";
+?>
+
+
+___________________________________
+
+=>GIT BASH or terminal
+
+git init
+
+heroku git:remote -a {application name}
+
+git add .
+(kana wait ya tl...kyar tat tal)
+
+git commit -am "my first project"
+
+git push heroku master
+
+heroku open
+

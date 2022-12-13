@@ -1,0 +1,140 @@
+ =>why we use Github ?
+ 
+ 1. ko code ko safe pyit ag
+ 2. team net lot pho
+
+__________________________________
+
+=> CMD
+
+ssh keygen
+
+=== to see the result : C:\Users\Lenovo\.ssh
+
+Note: in the folder u can see the ssh key
+        then go to Github.com => acc setting (left side) => SSH key and GPG key => key (copy from the folder => C:\Users\Lenovo\.ssh)
+        Title(laptop or deshtop/ mypc / mylaptop)
+
+
+__________________________________
+
+WHAT IS GIT ?
+
+- matu nyi tat os or website ko chait set pho(link lote pay dr)
+- pay htr tat command ka git paw a chay khan yu p lot htr lo
+ 
+__________________________________
+
+=>In CMD
+
+git
+
+git --version
+*result = git version 2.33.0.windows.2
+
+__________________________________
+
+=>for one time config / ta khar pl lot ya mal...window ma cha ma chinn....window pyan tin yin lo p
+
+git config --global user.name "Nay Win Tun"
+git config --global user.name 
+
+git config --global user.email "naywintunash@gmail.com"
+git config --global user.email
+
+__________________________________
+
+
+=>GO TO THE PROJECT FOLDER
+
+== go to project folder / right click / git bash here
+
+git init
+
+(.git so p paw lr mal....if ma paw khae yin view menu htai ka option ka nay view tab show/hidden lot pay ya mal )
+
+
+__________________________________
+
+=>Github.com=> repositity / code tag htai ka code dropdown (green color) ka nay ssh link yu
+
+==git bash
+
+git remote add origin {sshcode from github repositity}
+git remote 
+
+__________________________________
+
+git status
+(file ka red color net pya nay mal)
+
+git add -A
+(shi ta mya file twei ko git htai htai pr mal lo pyaw lite dr)
+
+git status
+(file green color pyit twr mal)
+
+git commit-m "My First Project"
+(commit ka unit pyit ya mal)
+(name shae mr date yay cha dr myar tl)
+
+git push -u origin master
+(github paw push lot mal -u ka user )
+
+__________________________________
+
+=>modified
+
+==project ko twr pyin htr yin
+
+git status
+(modified pya mal)
+
+git add -A
+git commit -m "Add new word"
+git push -u origin master
+
+
+
+github.dev
+project ko ayay paw change sayr shi yin.....repositity win....link ka nay .com ko del p dev htai)
+
+
+__________________________________
+
+=> Github ka nay project htai 
+
+folder ko backup name pay.....ma pay lal ya tl
+
+git clone {ssh address}
+
+(backup pr ma lr yin...)
+(github htai ka setting/leftside mr branches ka nay main => master change)
+
+
+__________________________________
+
+=> Github ko ssh link bae hr net chait htr lal pyan sit chin yin
+
+git remote -v
+
+__________________________________
+
+git pull origin master
+
+__________________________________
+
+=> git ssh alot lot lr ma lot lr sit chin yin
+
+ssh -T git@github.com
+
+(authenticated phyit ya mal)
+
+__________________________________
+
+
+exchangerate-api.com
+
+github and hiroku
+
+987653&jswdf
